@@ -1,0 +1,59 @@
+body {
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: PingFangSC-Regular;
+    height: 100%;
+    width: 100%;
+}
+
+.func{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.5);
+    list-style-type: none;
+}
+
+.left {
+    width: 250px;
+    background: white;
+    margin-right: 10px;
+    min-height: 350px;
+}
+
+.list {
+    display: inline-table;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.func a{
+    text-decoration: none;
+    color:lightseagreen;
+}
+
+.func.active a{
+    color: wheat;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: white;
+}
+
+form span {
+    margin-right: 10px;
+}
+
+form select {
+
+}
+
+td {
+    text-align: center;
+}

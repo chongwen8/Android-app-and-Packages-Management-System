@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">快递员注册扫码</string>
+    <string name="date_text">Date</string>
+    <string name="btn_sign_up">注册</string>
+    <string name="btn_sign_in">登录</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_loan">Loan</string>
+    <string name="title_communicate">Communicate</string>
+    <string name="courier_name">Name</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="username">username</string>
+    <string name="name_text">姓名</string>
+    <string name="courierID">编号</string>
+    <string name="scanner">扫描二维码</string>
+
+
+    <!--扫码-->
+    <string name="qr_name">二维码</string>
+    <string name="i_know">我知道了</string>
+    <string name="permission">抱歉,你的%1$s权限没有打开,无法正常服务
+        \n请点击”设置”->在应用程序中找到”popon”->权限管理->%2$s->”允许”即可 </string>
+    <string name="camera">摄像头(相机)</string>
+    <string name="message">顾客信息</string>
+
+</resources>

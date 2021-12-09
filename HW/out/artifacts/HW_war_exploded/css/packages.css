@@ -1,0 +1,26 @@
+table{
+    width: 1000px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.view input[type="submit"]{
+    float: right;
+    margin-right: 50px;
+}
+
+.QrCode input[type="submit"]{
+    float: right;
+    margin-right: 42px;
+}
+
+.info{
+    float: left;
+    color: red;
+}

@@ -1,0 +1,58 @@
+com/example/chongwen/Courier.java
+ com.example.chongwen.Courier
+com/example/chongwen/zbar/camera/CameraManager.java
+ com.example.chongwen.zbar.camera.CameraManager
+com/example/chongwen/MainActivity.java
+ com.example.chongwen.MainActivity
+com/example/chongwen/HttpLogin.java
+ com.example.chongwen.HttpLogin
+com/example/xuwei/BuildConfig.java
+ com.example.xuwei.BuildConfig
+com/example/chongwen/zbar/decode/DecodeHandler.java
+ com.example.chongwen.zbar.decode.DecodeHandler
+com/example/chongwen/zbar/decode/DecodeThread.java
+ com.example.chongwen.zbar.decode.DecodeThread
+com/example/chongwen/util/DESUtil.java
+ com.example.chongwen.util.DESUtil
+com/example/chongwen/zbar/decode/MainHandler.java
+ com.example.chongwen.zbar.decode.MainHandler
+ com.example.chongwen.zbar.decode.MainHandler$State
+com/example/chongwen/util/Constant.java
+ com.example.chongwen.util.Constant
+com/example/chongwen/LoginFragment.java
+ com.example.chongwen.LoginFragment
+ com.example.chongwen.LoginFragment$1
+ com.example.chongwen.LoginFragment$2
+ com.example.chongwen.LoginFragment$3
+ com.example.chongwen.LoginFragment$4
+ com.example.chongwen.LoginFragment$executeReply
+com/example/chongwen/zbar/utils/BeepManager.java
+ com.example.chongwen.zbar.utils.BeepManager
+com/example/chongwen/zbar/camera/CameraConfigurationManager.java
+ com.example.chongwen.zbar.camera.CameraConfigurationManager
+ com.example.chongwen.zbar.camera.CameraConfigurationManager$1
+com/example/chongwen/zbar/camera/CameraPreview.java
+ com.example.chongwen.zbar.camera.CameraPreview
+com/example/chongwen/zbar/CaptureActivity.java
+ com.example.chongwen.zbar.CaptureActivity
+ com.example.chongwen.zbar.CaptureActivity$1
+ com.example.chongwen.zbar.CaptureActivity$2
+ com.example.chongwen.zbar.CaptureActivity$3
+ com.example.chongwen.zbar.CaptureActivity$4
+com/example/chongwen/SingleFragmentActivity.java
+ com.example.chongwen.SingleFragmentActivity
+com/example/chongwen/zbar/utils/Config.java
+ com.example.chongwen.zbar.utils.Config
+com/example/chongwen/zbar/view/ScanLineView.java
+ com.example.chongwen.zbar.view.ScanLineView
+com/example/chongwen/zbar/camera/PreviewCallback.java
+ com.example.chongwen.zbar.camera.PreviewCallback
+com/example/chongwen/zbar/camera/AutoFocusManager.java
+ com.example.chongwen.zbar.camera.AutoFocusManager
+ com.example.chongwen.zbar.camera.AutoFocusManager$1
+ com.example.chongwen.zbar.camera.AutoFocusManager$AutoFocusTask
+com/example/chongwen/HomeFragment.java
+ com.example.chongwen.HomeFragment
+ com.example.chongwen.HomeFragment$1
+com/example/chongwen/HomeActivity.java
+ com.example.chongwen.HomeActivity

@@ -1,0 +1,19 @@
+section {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: wheat;
+}
+
+form span {
+    margin-right: 10px;
+}
+
+form select {
+
+}
+
+td {
+    text-align: center;
+}

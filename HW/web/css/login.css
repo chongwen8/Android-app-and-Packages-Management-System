@@ -1,0 +1,302 @@
+body {
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: PingFangSC-Regular;
+    height: 100%;
+    width: 100%;
+}
+
+
+.wrap {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 600px;
+    cursor: pointer;
+}
+
+.list {
+    width: 600px;
+    height: 400px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.item {
+    position: absolute; /* 让五张图片叠在一起 */
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* 设置元素的不透明级别*/
+    transition: all .8s; /* 元素过渡属性 */
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 左右按钮样式 */
+.btn {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+    font-size: 26px;
+    color: #CCCCCC;
+    background: none;
+    border: 0;
+    display: none;
+}
+
+.wrap:hover .btn {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+    border: 0;
+    outline: none; /* 去除button默认样式 */
+}
+
+#goPre {
+    left: 0;
+}
+
+#goNext {
+    right: 0;
+}
+
+.active {
+    /* 当前被选中的样式 */
+    opacity: 1;
+    z-index: 10;
+}
+
+/* 下方小圆点样式 */
+.pointList {
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+    z-index: 10;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 0, 0, .4);
+    border: 2px solid rgba(255, 255, 255, .8);
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.point.active {
+    /* 当前被选中的样式 */
+    background: rgba(34, 202, 90, 0.8);
+}
+
+
+.dzwrap {
+    width: 600px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    position: absolute;
+    right: 100px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.tabHead {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.tabHead .change_mode {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 185px;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.tabHead #left {
+    margin-left: 10px;
+    margin-right: 5px;
+    border-right-style: solid;
+    border-right: 1px;
+}
+
+.tabHead #right {
+    margin-right: 10px;
+    margin-left: 5px;
+    border-left-style: solid;
+    border-left: 1px;
+}
+
+#left {
+    color: #2B6CDB;
+    border-color: #2B6CDB;
+}
+
+#right{
+    color: black;
+    border-color: black;
+}
+
+.change_mode:hover {
+    color: #2B6CDB;
+    border-color: #2B6CDB;
+    transform: scale(0.96);
+    transition: 0.5s;
+}
+
+/* .login_main{
+    display: block;
+    background-color: red;
+} */
+
+.login_main {
+    overflow: hidden;
+}
+
+.account_div {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.phone_div {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sign_item {
+    position: relative;
+    margin-top: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.sign_item span {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.sign_item img {
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+input {
+    width: 80%;
+    border: none;
+    height: 48px;
+    margin-left: 48px;
+    outline: none;
+}
+
+.sign_btn {
+    /* width: 100%; */
+    height: 50px;
+    background: #2368de;
+    border-radius: 4px;
+    display: block;
+    /* text-align: center; */
+    line-height: 50px;
+    font-size: 18px;
+    /* text-decoration: none; */
+    letter-spacing: 12px;
+    margin-top: 40px;
+}
+
+.sign_btn a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+.sign_btn:hover{
+    cursor: pointer;
+    transform: scale(0.96);
+    transition: 0.8s;
+}
+
+.phone_div {
+    display: none;
+}
+
+.phone_div .getCode{
+    background-color: #2B6CDB;
+    border-radius: 3px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin-top: 6px;
+    height: 33px;
+    width: 96px;
+    /*padding: 6px 8px;*/
+}
+
+.phone_div .getCode:hover{
+    cursor: pointer;
+    transform: scale(0.96);
+    transition: 0.8s;
+}
+
+.phone_div .getCode a{
+    text-decoration: none;
+    background: none;
+    color: white;
+    padding-top: 4px;
+    display: inline-block;
+    height: inherit;
+    width: 100%;
+}
+
+.container .help {
+    position: relative;
+    clear: both;
+    margin-top: 12px;
+    height: 26px;
+}
+.container .help a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: #0c4af9;
+    float: left;
+}
